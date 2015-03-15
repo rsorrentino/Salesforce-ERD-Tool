@@ -1,0 +1,26 @@
+postgresql;ELSA;Salesforce;"Account (Account)";"Account ID (Id)";1;"ID";18;"PRIMARY KEY";
+postgresql;ELSA;Salesforce;"Account (Account)";"Master Record ID (MasterRecordId)";2;"REFERENCE";18;"FOREIGN KEY";"Salesforce";"Account (Account)";"Account ID (Id)";
+postgresql;ELSA;Salesforce;"Account (Account)";"Parent Account ID (ParentId)";3;"REFERENCE";18;"FOREIGN KEY";"Salesforce";"Account (Account)";"Account ID (Id)";
+postgresql;ELSA;Salesforce;"Account (Account)";"Owner ID (OwnerId)";4;"REFERENCE";18;"FOREIGN KEY";"Salesforce";"User (User)";"User ID (Id)";
+postgresql;ELSA;Salesforce;"Account (Account)";"Created By ID (CreatedById)";5;"REFERENCE";18;"FOREIGN KEY";"Salesforce";"User (User)";"User ID (Id)";
+postgresql;ELSA;Salesforce;"Account (Account)";"Last Modified By ID (LastModifiedById)";6;"REFERENCE";18;"FOREIGN KEY";"Salesforce";"User (User)";"User ID (Id)";
+postgresql;ELSA;Salesforce;"Contact (Contact)";"Contact ID (Id)";1;"ID";18;"PRIMARY KEY";
+postgresql;ELSA;Salesforce;"Contact (Contact)";"Master Record ID (MasterRecordId)";2;"REFERENCE";18;"FOREIGN KEY";"Salesforce";"Contact (Contact)";"Contact ID (Id)";
+postgresql;ELSA;Salesforce;"Contact (Contact)";"Account ID (AccountId)";3;"REFERENCE";18;"FOREIGN KEY";"Salesforce";"Account (Account)";"Account ID (Id)";
+postgresql;ELSA;Salesforce;"Contact (Contact)";"Record Type ID (RecordTypeId)";4;"REFERENCE";18;"FOREIGN KEY";"Salesforce";"RecordType (RecordType)";"RecordType ID (Id)";
+postgresql;ELSA;Salesforce;"Contact (Contact)";"Reports To ID (ReportsToId)";5;"REFERENCE";18;"FOREIGN KEY";"Salesforce";"Contact (Contact)";"Contact ID (Id)";
+postgresql;ELSA;Salesforce;"Contact (Contact)";"Owner ID (OwnerId)";6;"REFERENCE";18;"FOREIGN KEY";"Salesforce";"User (User)";"User ID (Id)";
+postgresql;ELSA;Salesforce;"Contact (Contact)";"Created By ID (CreatedById)";7;"REFERENCE";18;"FOREIGN KEY";"Salesforce";"User (User)";"User ID (Id)";
+postgresql;ELSA;Salesforce;"Contact (Contact)";"Last Modified By ID (LastModifiedById)";8;"REFERENCE";18;"FOREIGN KEY";"Salesforce";"User (User)";"User ID (Id)";
+postgresql;ELSA;Salesforce;"User (User)";"User ID (Id)";1;"ID";18;"PRIMARY KEY";
+postgresql;ELSA;Salesforce;"User (User)";"Role ID (UserRoleId)";2;"REFERENCE";18;"FOREIGN KEY";"Salesforce";"UserRole (UserRole)";"UserRole ID (Id)";
+postgresql;ELSA;Salesforce;"User (User)";"Profile ID (ProfileId)";3;"REFERENCE";18;"FOREIGN KEY";"Salesforce";"Profile (Profile)";"Profile ID (Id)";
+postgresql;ELSA;Salesforce;"User (User)";"Delegated Approver ID (DelegatedApproverId)";4;"REFERENCE";18;"FOREIGN KEY";"Salesforce";"Group (Group)";"Group ID (Id)";
+postgresql;ELSA;Salesforce;"User (User)";"Delegated Approver ID (DelegatedApproverId)";4;"REFERENCE";18;"FOREIGN KEY";"Salesforce";"User (User)";"User ID (Id)";
+postgresql;ELSA;Salesforce;"User (User)";"Manager ID (ManagerId)";5;"REFERENCE";18;"FOREIGN KEY";"Salesforce";"User (User)";"User ID (Id)";
+postgresql;ELSA;Salesforce;"User (User)";"Created By ID (CreatedById)";6;"REFERENCE";18;"FOREIGN KEY";"Salesforce";"User (User)";"User ID (Id)";
+postgresql;ELSA;Salesforce;"User (User)";"Last Modified By ID (LastModifiedById)";7;"REFERENCE";18;"FOREIGN KEY";"Salesforce";"User (User)";"User ID (Id)";
+postgresql;ELSA;Salesforce;"User (User)";"Contact ID (ContactId)";8;"REFERENCE";18;"FOREIGN KEY";"Salesforce";"Contact (Contact)";"Contact ID (Id)";
+postgresql;ELSA;Salesforce;"User (User)";"Account ID (AccountId)";9;"REFERENCE";18;"FOREIGN KEY";"Salesforce";"Account (Account)";"Account ID (Id)";
+postgresql;ELSA;Salesforce;"User (User)";"Call Center ID (CallCenterId)";10;"REFERENCE";18;"FOREIGN KEY";"Salesforce";"CallCenter (CallCenter)";"CallCenter ID (Id)";
+

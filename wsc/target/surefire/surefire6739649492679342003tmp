@@ -1,0 +1,6 @@
+#surefire
+#Fri Jan 30 14:16:29 EST 2015
+user.dir=/Users/michael/Documents/workspace/Org Describe/wsc
+localRepository=/Users/michael/.m2/repository
+gpg.skip=true
+basedir=/Users/michael/Documents/workspace/Org Describe/wsc

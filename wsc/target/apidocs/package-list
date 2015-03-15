@@ -1,0 +1,12 @@
+com.sforce.async
+com.sforce.bulk
+com.sforce.ws
+com.sforce.ws.bind
+com.sforce.ws.codegen
+com.sforce.ws.codegen.metadata
+com.sforce.ws.parser
+com.sforce.ws.tools
+com.sforce.ws.transport
+com.sforce.ws.types
+com.sforce.ws.util
+com.sforce.ws.wsdl

@@ -1,0 +1,37 @@
+#surefire
+#Fri Jan 30 14:16:29 EST 2015
+testClassesDirectory=/Users/michael/Documents/workspace/Org Describe/wsc/target/test-classes
+classPathUrl.4=/Users/michael/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar
+completedCount=8
+classPathUrl.3=/Users/michael/.m2/repository/org/antlr/antlr-runtime/3.5/antlr-runtime-3.5.jar
+classPathUrl.2=/Users/michael/.m2/repository/org/antlr/ST4/4.0.7/ST4-4.0.7.jar
+failures=0
+classPathUrl.1=/Users/michael/Documents/workspace/Org Describe/wsc/target/classes
+useManifestOnlyJar=true
+reportsDirectory=/Users/michael/Documents/workspace/Org Describe/wsc/target/surefire-reports
+classPathUrl.0=/Users/michael/Documents/workspace/Org Describe/wsc/target/test-classes
+dirscanner.0=directoryScannerOptions
+providerConfiguration=org.apache.maven.surefire.junit4.JUnit4Provider
+testSuiteDefinitionTestSourceDirectory=/Users/michael/Documents/workspace/Org Describe/wsc/src/test/java
+surefireClassPathUrl.1=/Users/michael/.m2/repository/org/apache/maven/surefire/surefire-api/2.7.1/surefire-api-2.7.1.jar
+surefireClassPathUrl.0=/Users/michael/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.7.1/surefire-junit4-2.7.1.jar
+report.2=org.apache.maven.surefire.report.XMLReporter
+errors=0
+useSystemClassLoader=true
+report.1=org.apache.maven.surefire.report.BriefFileReporter
+excludes0=**/*$*
+report.0=org.apache.maven.surefire.report.ForkingConsoleReporter
+isTrimStackTrace=true
+dirscanner.0.params=/Users/michael/Documents/workspace/Org Describe/wsc/target/test-classes|[**/Test*.java, **/*Test.java, **/*TestCase.java]|[**/*$*]
+forkTestSet=java.lang.Class|com.sforce.async.CSVReaderTest
+enableAssertions=true
+includes2=**/*TestCase.java
+failIfNoTests=false
+includes1=**/*Test.java
+dirscanner.0.types=java.io.File|java.util.ArrayList|java.util.ArrayList
+includes0=**/Test*.java
+skipped=0
+classPathUrl.7=/Users/michael/.m2/repository/com/google/appengine/appengine-api-1.0-sdk/1.7.3/appengine-api-1.0-sdk-1.7.3.jar
+classPathUrl.6=/Users/michael/.m2/repository/junit/junit/4.8.2/junit-4.8.2.jar
+childDelegation=false
+classPathUrl.5=/Users/michael/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar
