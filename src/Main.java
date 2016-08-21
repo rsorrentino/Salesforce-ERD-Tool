@@ -43,7 +43,7 @@ public class Main {
      
      try {
  	
-     MetadataConnection mc = SalesforceLoginSOAP.login("mick.wheelz@gmail.com", "InItial89", "ULi8HaMXOIx418iTkHK6gmTPT", "Production");
+     MetadataConnection mc = SalesforceLoginSOAP.login("username", "password", "token", "Production");
 
      mc.createMetadata(new Metadata[] {nf});
      
